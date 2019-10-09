@@ -1,0 +1,35 @@
+body {
+    background-color: blueviolet;
+}
+
+#intro {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+@media only screen and (max-width: 1000px) {
+    body {
+        background-color: aqua;
+
+    }
+
+@media only screen and (max-width: 800px) {
+    body {
+        background-color: mediumvioletred;
+    }
+
+    @media only screen and (max-width: 600px) {
+        body {
+            background-color: rgb(246, 250, 11);
+        }
+}
+}
+
+@media only screen and (max-width540px) {
+    #intro {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 2em;
+    }
+}
